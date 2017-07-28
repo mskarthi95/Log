@@ -1,0 +1,1 @@
+INFO    2017-07-28 17:57:32,093 [http-9090-1] com.kg.log.TestLog4jServlet  - This is a logging statement from log4j
