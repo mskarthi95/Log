@@ -1,5 +1,5 @@
  package com.kg.log;
- 
+
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,7 +18,10 @@ public class TestLog4jServlet extends HttpServlet {
             HttpServletResponse response) throws ServletException, IOException {
          
         LOGGER.info("This is a logging statement from log4j");
-         
+         LOGGER.warn("Warning message");
+                LOGGER.fatal("FATAL message");
+                        LOGGER.error("ERROR message");
+                                LOGGER.debug("DEBUG message");
         String html = "<html><h2>Log4j has been initialized successfully!</h2></html>";
         response.getWriter().println(html);
     }

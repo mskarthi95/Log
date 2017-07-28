@@ -1,1 +1,9 @@
 INFO    2017-07-28 17:57:32,093 [http-9090-1] com.kg.log.TestLog4jServlet  - This is a logging statement from log4j
+INFO    2017-07-28 18:37:50,561 [http-9090-1] com.kg.log.TestLog4jServlet  - This is a logging statement from log4j
+INFO    2017-07-28 18:47:12,484 [http-9090-1] com.kg.log.TestLog4jServlet  - This is a logging statement from log4j
+WARN    2017-07-28 18:47:12,487 [http-9090-1] com.kg.log.TestLog4jServlet  - Warning message
+INFO    2017-07-28 18:50:02,189 [http-9090-1] com.kg.log.TestLog4jServlet  - This is a logging statement from log4j
+WARN    2017-07-28 18:50:02,190 [http-9090-1] com.kg.log.TestLog4jServlet  - Warning message
+FATAL   2017-07-28 18:50:02,190 [http-9090-1] com.kg.log.TestLog4jServlet  - FATAL message
+ERROR   2017-07-28 18:50:02,190 [http-9090-1] com.kg.log.TestLog4jServlet  - ERROR message
+DEBUG   2017-07-28 18:50:02,190 [http-9090-1] com.kg.log.TestLog4jServlet  - DEBUG message
